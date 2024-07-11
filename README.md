@@ -81,12 +81,8 @@ int main() {
 
 Compile your program with the ft_printf library:
 
-```sh
-
-gcc -o example example.c I -lftprintf
+gcc -I./libft -o example example.c libftprintf.a
 
 Run the program:
-
-```sh
 
 ./example
