@@ -79,10 +79,15 @@ int main() {
     return 0;
 }
 
+
 Compile your program with the ft_printf library:
+
+sh
 
 gcc -Wall -Wextra -Werror -I./libft -o example example.c libftprintf.a
 
 Run the program:
+
+sh
 
 ./example
